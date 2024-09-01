@@ -2,7 +2,8 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
     {
-        path:'/',
+        path:'home',
+        pathMatch:'full',
         loadComponent: ()=> import('./pages/home/home.component')
     },
     {
