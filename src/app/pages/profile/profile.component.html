@@ -1,1 +1,36 @@
-<p>profile works!</p>
+<div class="area" >
+    <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        
+        <div class="p-5">
+            <h1 class="flex justify-center text-6xl font-bold text-white mt-8">Hola, {{data[0].nombre}}! </h1>
+            <div class="card flex justify-center mt-4">
+                <p-card header="Advanced Card" subheader="Card Subheader" [style]="{ width: '360px' }">
+                    <ng-template pTemplate="header">
+                        <img alt="Card" [src]="data[0].img" class="h-28 w-28 rounded-full mx-auto mt-4" />
+                    </ng-template>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque
+                        quas!
+                    </p>
+                    <ng-template pTemplate="footer">
+                        <div class="flex gap-3 mt-1">
+                            <p-button label="Cancel" severity="secondary" class="w-full" styleClass="w-full" />
+                            <p-button label="Save" class="w-full" styleClass="w-full" />
+                        </div>
+                    </ng-template>
+                </p-card>
+            </div>
+        
+        </div>
+</div >
