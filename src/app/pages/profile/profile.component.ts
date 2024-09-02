@@ -28,19 +28,19 @@ constructor(  private route: ActivatedRoute,){
     const DATA = [
       {
         id:1,
-        nombre:'Federico',
+        nombre:'FEDERICO',
         alias:'federico',
         img: 'assets/img/federico2.jpg'
       },
       {
         id:2,
-        nombre:'Santiago',
+        nombre:'SANTIAGO',
         alias:'santiago',
         img: 'assets/img/santiago2.jpg'
       },
       {
         id:3,
-        nombre:'Lucas',
+        nombre:'LUCAS',
         alias:'lucas',
         img: 'assets/img/lucas2.jpg'
       },
