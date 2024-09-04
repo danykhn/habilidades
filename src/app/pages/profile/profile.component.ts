@@ -44,6 +44,12 @@ constructor(  private route: ActivatedRoute,){
         alias:'lucas',
         img: 'assets/img/lucas2.jpg'
       },
+      {
+        id:4,
+        nombre:'LUCAS',
+        alias:'lucas_2',
+        img: 'assets/img/lucas_2.jpg'
+      },
     ]
 
   const a =  DATA.filter((e)=>{
